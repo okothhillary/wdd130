@@ -89,7 +89,8 @@ footer p a:hover{
     color: white;
 }
 
-.book:hover, .join:hover{
+.book:hover, .join:hover
+{
     color: white;
 }
 

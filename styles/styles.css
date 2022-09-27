@@ -15,6 +15,7 @@ img {
     width: 100%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }
 
 p {
@@ -32,6 +33,7 @@ a:hover {
 
 h1 {
     text-align: center;
+    margin: 0;
 }
 
 nav, footer {
@@ -45,4 +47,6 @@ nav, footer {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
+

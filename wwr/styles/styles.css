@@ -292,6 +292,7 @@ main section img {
 
     header{
         background-color: darkgoldenrod;
+        opacity: 1;
     }
     .mountains, .msg {
         width: 80%;

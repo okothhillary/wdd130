@@ -135,11 +135,11 @@ footer{
 }
 
 footer h3{
-    color: burlywood;
+    color: black;
 }
 
 footer a{
-    color: burlywood;
+    color: black;
     text-decoration: none;
 }
 
@@ -154,7 +154,7 @@ footer p{
 }
 
 footer p a:hover{
-    
+
     text-decoration: underline;
 }
 

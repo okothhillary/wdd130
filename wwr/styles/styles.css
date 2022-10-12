@@ -54,7 +54,7 @@ nav a:hover{
 header{
     display: grid;
     grid-template-columns: 150px  auto;
-    background-color:  transparent;
+    background-color: transparent;
     opacity: 1;
     color: white;
     font-family:'Peralta', 'Helvetica', 'Arial', 'Sans serif';
@@ -257,6 +257,64 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+.trip-card{
+    border: 10px solid #9EC1A3;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
+    
+}
+.trip{
+    background-color:#9EC1A3;
+}
+
+.trip-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 20px;
+}
+
+#heading{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.details{
+    text-align: center;
+}
+
+.tana-river{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.athi-river{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.nile-river{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.dale-river{
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.creeks-river{
+    grid-column: 5/7;
+    grid-row: 4/5;
+}
+.congo-river{
+    grid-column: 8/10;
+    grid-row: 4/5;
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

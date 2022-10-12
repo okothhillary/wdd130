@@ -47,7 +47,7 @@ body{
 
 nav a:hover{
 
-    background-color: #9EC1A3;
+    background-color: steelblue;
     color: white;
 }
 
@@ -262,6 +262,7 @@ main section img {
     border: 10px solid #9EC1A3;
     box-shadow: 5px 5px 10px #6f7364;
     margin-top: 100px;
+    text-align: center;
     
 }
 .trip{
@@ -278,6 +279,7 @@ main section img {
 #heading{
     margin-top: 50px;
     text-align: center;
+    font-family:'Peralta', 'Helvetica', 'Arial', 'Sans serif';
 
 }
 .details{
@@ -287,40 +289,64 @@ main section img {
 .tana-river{
     grid-column: 2/4;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .athi-river{
     grid-column: 5/7;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .nile-river{
     grid-column: 8/10;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .dale-river{
     grid-column: 2/4;
     grid-row: 4/5;
+    justify-self: center;
 }
 
 .creeks-river{
     grid-column: 5/7;
     grid-row: 4/5;
+    justify-self: center;
 }
 .congo-river{
     grid-column: 8/10;
     grid-row: 4/5;
+    justify-self: center;
 }
+
+.trip-card:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
 
 
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+
+    #hero, .home-grid, .trip-grid {
         display: block;
         height: auto;
     }
+
+    .trip-card{
+        margin: 50px auto;
+        width: 60%;        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+          
+    }
+    
     nav, footer {
         flex-direction: column;
     }
@@ -350,7 +376,7 @@ main section img {
     }
 
     header{
-        background-color: darkgoldenrod;
+        background-color: #9EC1A3;
         opacity: 1;
     }
     .mountains, .msg {
@@ -360,5 +386,5 @@ main section img {
     }
     footer {
         margin-top: 25px;
-    }
+    } 
 }

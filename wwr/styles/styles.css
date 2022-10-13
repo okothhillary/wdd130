@@ -350,7 +350,9 @@ main section img {
         
           
     }
-    
+    #epic{
+        justify-self: center;   
+       }
     nav, footer {
         flex-direction: column;
     }

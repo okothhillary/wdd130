@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.achievement-card {
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+
+.card-img{
+    box-shadow: 5px 5px 10px #11202C;
+    width: 400px;
+    height: 300px;
+    border: 10px solid #AABD8C;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #11202C;
+    color: white;
+    padding: 25px 50px;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover{
+    color: #AABD8C;
+}    
+
+header{
+    display: grid;
+    grid-template-columns: 150px  auto;
+    background-color: transparent;
+    opacity: 1;
+    color: white;
+    font-family:'Roboto', 'Helvetica', 'Arial', 'Sans serif';
+}
+
+.home-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    
+}
+
+.intro {
+    grid-column: 2/9;
+    grid-row: 3/4;
+    margin-top: 10px;
+    font-size: 20px;
+    margin: auto;
+    box-sizing: content-box;   
+    border: 10px solid #AABD8C;
+    margin-top: 30px; 
+    margin-left: 150px;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #11202C;
+}
+
+nav a{
+    text-align: center;
+    color:  white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+
+    background-color: #AABD8C;
+    color: #11202C;
+}
+
+.skills-card {
+    grid-column: 7/9;
+    grid-row: 5/7;
+}
+
+.achievement-card, .skills-card{
+    margin: 200px 0;
+    text-align: center;
+}
+
+
+

@@ -40,6 +40,11 @@
     text-align: center;
 }
 
+body{
+    font-family: 'Roboto', 'Helvetica', 'Sans serif', 'Arial';
+    
+}
+
 
 .card-img{
     box-shadow: 5px 5px 10px #11202C;

@@ -5,13 +5,81 @@
     grid-row: 5/7;
 }
 
+.achievement-card:hover {
+    opacity: .7;
+    transform: scale(1.1);
+}
+
+.achievement-grid{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.arrow1{
+    grid-column: 6/7;
+    grid-row: 4/6;
+    align-self: center;
+}
+
+.arrow2{
+    grid-column: 6/7;
+    grid-row: 8/10;
+    align-self: center;
+}
+
+.arrow3{
+    grid-column: 6/7;
+    grid-row: 12/14;
+    align-self: center;
+}
+
+.back-end{
+    grid-column: 2/4;
+    grid-row: 8/10;
+    text-align: center;
+}
+
+
 .card-img{
     box-shadow: 5px 5px 10px #11202C;
     width: 400px;
     height: 300px;
     border: 10px solid #AABD8C;
     text-align: center;
-    
+       
+}
+
+.current {
+    grid-column: 2/4;
+    grid-row: 12/14;
+    text-align: center;
+}
+
+.description1, .description4 {
+    grid-column: 8/10;
+    grid-row: 4/6;
+    font-size: 20px;
+    align-self: center;
+
+}
+
+.description2, .description5 {
+    grid-column: 8/10;
+    grid-row: 8/10;    
+    font-size: 20px;
+    align-self: center;
+}
+
+.description3, .description6 {
+    grid-column: 8/10;
+    grid-row: 12/14;
+    font-size: 20px;
+    align-self: center;
+}
+
+.description4, .description5, .description6 {
+    font-size: medium;
 }
 
 footer{
@@ -25,7 +93,13 @@ footer{
 
 footer a:hover{
     color: #AABD8C;
-}    
+}  
+
+.front-end{
+    grid-column: 2/4;
+    grid-row: 4/6;
+    text-align: center;
+}
 
 header{
     display: grid;
@@ -36,10 +110,19 @@ header{
     font-family:'Roboto', 'Helvetica', 'Arial', 'Sans serif';
 }
 
+#heading1, #heading2 {
+    grid-column: 5/8;
+    grid-row: 2/3;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;    
+}
+
 .home-grid{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    
     
 }
 
@@ -60,7 +143,6 @@ header{
     width: 80px;
 }
 
-
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -71,8 +153,14 @@ main section img {
     box-sizing: border-box;
 }
 
-nav {
 
+.more-skills {
+    grid-column: 2/4;
+    grid-row: 12/14;
+    text-align: center;
+}
+
+nav {
     display: flex;
     justify-content: space-around;
     background-color: #11202C;
@@ -86,9 +174,14 @@ nav a{
 }
 
 nav a:hover{
-
     background-color: #AABD8C;
     color: #11202C;
+}
+
+.personal{
+    grid-column: 2/4;
+    grid-row: 4/6;
+    text-align: center;
 }
 
 .skills-card {
@@ -101,5 +194,27 @@ nav a:hover{
     text-align: center;
 }
 
+.skills-card:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
+.team{
+    grid-column: 2/4;
+    grid-row: 8/10;
+    text-align: center;    
+}
 
+.tech-grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+section{
+    margin: 30px;
+}
+
+.achievement-grid section{
+    margin: 60px;
+}

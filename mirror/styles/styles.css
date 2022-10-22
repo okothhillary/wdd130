@@ -16,6 +16,10 @@
     grid-template-columns: repeat(10, 1fr);
 }
 
+.achievement-grid section{
+    margin: 60px;
+}
+
 .arrow1{
     grid-column: 6/7;
     grid-row: 4/6;
@@ -185,6 +189,10 @@ nav a:hover{
     text-align: center;
 }
 
+section{
+    margin: 30px;
+}
+
 .skills-card {
     grid-column: 7/9;
     grid-row: 5/7;
@@ -210,12 +218,4 @@ nav a:hover{
     display: grid;
     margin: auto;
     grid-template-columns: repeat(10, 1fr);
-}
-
-section{
-    margin: 30px;
-}
-
-.achievement-grid section{
-    margin: 60px;
 }

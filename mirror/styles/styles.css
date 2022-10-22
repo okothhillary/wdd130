@@ -46,8 +46,7 @@
     width: 400px;
     height: 300px;
     border: 10px solid #AABD8C;
-    text-align: center;
-       
+    text-align: center;       
 }
 
 .current {
@@ -61,7 +60,6 @@
     grid-row: 4/6;
     font-size: 20px;
     align-self: center;
-
 }
 
 .description2, .description5 {
@@ -121,9 +119,7 @@ header{
 .home-grid{
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    
-    
+    grid-template-columns: repeat(10, 1fr);    
 }
 
 .intro {

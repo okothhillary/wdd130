@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 
 .achievement-card {
     grid-column: 2/4;
@@ -45,7 +46,7 @@
 }
 
 body{
-    font-family: 'Roboto', 'Helvetica', 'Sans serif', 'Arial';
+    font-family: 'Roboto Condensed', 'Helvetica', 'Sans serif', 'Arial';
     
 }
 
@@ -114,7 +115,7 @@ header{
     background-color: transparent;
     opacity: 1;
     color: white;
-    font-family:'Roboto', 'Helvetica', 'Arial', 'Sans serif';
+    font-family:'Roboto Condensed', 'Helvetica', 'Arial', 'Sans serif';
 }
 
 #heading1, #heading2 {

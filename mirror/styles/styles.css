@@ -59,6 +59,9 @@ body{
     text-align: center;       
 }
 
+#contacts{
+    bottom: 0%;
+}
 .current {
     grid-column: 2/4;
     grid-row: 12/14;
@@ -123,8 +126,10 @@ header{
     grid-row: 2/3;
     margin: auto;
     margin-bottom: 30px;
-    text-align: center;    
+    text-align: center;
+    margin-top: 100px;    
 }
+
 
 .home-grid{
     margin: auto;
@@ -140,13 +145,15 @@ header{
     margin: auto;
     box-sizing: content-box;   
     border: 10px solid #AABD8C;
-    margin-top: 30px; 
+    margin-top: 140px; 
     margin-left: 150px;
     text-align: center;
 }
 
 .logo {
     width: 80px;
+    height: 80px;
+    align-self: center;
 }
 
 #logo_link {
@@ -170,6 +177,13 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #11202C;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 50px;
+    justify-self: center;
+    text-align: center;
 }
 
 nav a{

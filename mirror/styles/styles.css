@@ -99,7 +99,7 @@ footer{
     padding: 25px 50px;    
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
 }
 
 footer a:hover{
